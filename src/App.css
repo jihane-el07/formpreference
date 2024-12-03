@@ -1,38 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: turquoise;
+}
+
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h1 {
+  margin-bottom: 20px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div {
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f1e8e8;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+ .form-section {
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+h2 {
+  color: #555555;
+}
+
+.radio-label {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+.radio-label input {
+  margin-right: 10px;
+}
+
+.info {
+  margin-top: 10px;
+  color: #777;
+  font-style: italic;
+}
+
+
+.details-form {
+  margin-top: 20px;
+  padding: 15px;
+  /* background-color: #f9f9f9; */
+  background-color: #e1dede;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input-label {
+  display: block;
+  margin: 10px 0;
+  color: #444;
+  font-size: 14px;
+}
+
+.input-label input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+
+.submit-button {
+  display: inline-block;
+  background-color: #4caf50;
   color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.submit-button:hover {
+  background-color: #45a049;
+} 
+
+/* .summery {
+  animation: fadeIn 0.5s ease-in-out;
 }
 
-@keyframes App-logo-spin {
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
-}
+} */
+
